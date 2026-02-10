@@ -1,6 +1,5 @@
 # =============================================
 #  FOOD FRESHNESS DETECTOR AI
-# TechSkills Challenge Project
 # =============================================
 
 import tensorflow as tf
@@ -347,5 +346,6 @@ with open('model_report.txt', 'w') as f:
     f.write(f"Final Test Recall: {test_recall:.4f}\n")
     f.write(f"Final Test F1-Score: {test_f1:.4f}\n")
     f.write(f"Model saved: fruit_freshness_model.h5\n")
+
 
 print("Model report saved as 'model_report.txt'")
